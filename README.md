@@ -18,7 +18,7 @@ The web crawler is written in Python 2.7.11 and has tested on Windows 10, Ubuntu
 
 #### About the DataBase
 
-After runnings the program, it will create a sqlite3 database named 'xmuSeat.db' in current directory. This database have 14 tables named 'roomstate1' to 'roomstate14'. Each table represents the usage data of a reading room in Xiamen University Library. And each table has four attributes, which are time(float),RoomName(char),used(int),total(int).
+After runnings the program, it will create a sqlite3 database named 'seatState.db' in current directory. This database have 14 tables named 'roomstate1' to 'roomstate14'. Each table represents the usage data of a reading room in Xiamen University Library. And each table has four attributes, which are time(float),RoomName(char),used(int),total(int).
 
 
 #### About the Data
