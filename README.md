@@ -1,8 +1,9 @@
+
 ### Xiamen University Seats Usage Analysis Project
 
 A project in order to collect seats usage situation in Xiamen University Library and then do some data analysis on them. Here is the Web Crawler code and the data collected by me. More information about this project can be found [on my blog].
 
-[on my blog]:http://smartjinyu.com/data/mining/2016/10/12/XMU_Lib_Seats.html
+[on my blog]:https://smartjinyu.com/datamining/2016/10/12/XMU_Lib_Seats.html
 
 
 #### About the Crawler
