@@ -1,5 +1,8 @@
 #!usr/bin/python
-
+# This script will do some data preprocess(abort invalid data, adjust time,e.t.c.)
+# and export them into a Microsoft Excel document
+# Caution that this script is only compatible with the old schema of database (from OCT 14,2016 to DEC 15,2016, named seatState_old.db in my GitHub Repository)
+# This script is NOT compatible with the new schema of database, named libseat.db
 __author__ = 'smartjinyu'
 import sqlite3
 import xlwt
