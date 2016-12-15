@@ -1,7 +1,7 @@
 
 ### Xiamen University Seats Usage Analysis Project
 
-A project in order to collect seats usage situation in Xiamen University Library and then do some data analysis on them. Here is the Web Crawler code and the data collected by me. More information about this project can be found [on my blog].
+A project in order to collect seats usage situation in Xiamen University Library and then do some data analysis on them. Here is the Web Crawler code and the data collected by me. More information about this project and Chinese edition can be found [on my blog].
 
 [on my blog]:https://smartjinyu.com/datamining/2016/10/12/XMU_Lib_Seats.html
 
@@ -14,6 +14,7 @@ This project has moved to new schema of database since DEC 16,2016. The new data
 The web crawler is written in Python 2.7.11 and has tested on Windows 10, Ubuntu 16.04 and CentOS 7. It uses sqlite3 to store the data collected. Caution that you may meet gibberish problem when you open the database under Windows. The program is fully Open Source under GPL V3 Lincense.
 
 #### Dependencies
+
  - Requests 2.7.0
  - Beautiful Soup 4.3.2
  - lxml 
@@ -34,6 +35,7 @@ The web crawler is written in Python 2.7.11 and has tested on Windows 10, Ubuntu
 #### Problems in the Data
 
 According to the following reasons, data may be inaccurate and you may need to do some data cleaning work before data analysis. For seatState_old.db, preprocess.py can finish such work automatically.
+
 1. The library will close every Wednesday afternoon from 1 p.m. to 6 p.m., when students are not allowed to enter the library.
 2. The seat usage data becomes zero after 21:30 every day, not 22:00.
 3. You need to add 8 hours when using data from DEC 9,2016 to DEC 11,2016, and these data may be incomplete. (Sorry for my wrong VPS timezone settings)
